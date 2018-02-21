@@ -1,0 +1,73 @@
+Searching 136 files for "railsruby"
+
+/Users/raheemgul/Desktop/railsruby/package.json:
+    1  {
+    2:   "name": "railsruby",
+    3    "private": true,
+    4    "dependencies": {}
+
+/Users/raheemgul/Desktop/railsruby/app/views/layouts/application.html.erb:
+    2  <html>
+    3    <head>
+    4:     <title>Railsruby</title>
+    5      <%= csrf_meta_tags %>
+    6  
+
+/Users/raheemgul/Desktop/railsruby/config/application.rb:
+    7  Bundler.require(*Rails.groups)
+    8  
+    9: module Railsruby
+   10    class Application < Rails::Application
+   11      # Initialize configuration defaults for originally generated Rails version.
+
+/Users/raheemgul/Desktop/railsruby/config/cable.yml:
+    8    adapter: redis
+    9    url: redis://localhost:6379/1
+   10:   channel_prefix: railsruby_production
+   11  
+
+/Users/raheemgul/Desktop/railsruby/config/environments/production.rb:
+   60    # Use a real queuing backend for Active Job (and separate queues per environment)
+   61    # config.active_job.queue_adapter     = :resque
+   62:   # config.active_job.queue_name_prefix = "railsruby_#{Rails.env}"
+   63    config.action_mailer.perform_caching = false
+   64  
+
+/Users/raheemgul/Desktop/railsruby/log/development.log:
+  161  Started GET "/" for 127.0.0.1 at 2018-02-15 14:05:12 +0300
+  162    
+  163: LoadError (cannot load such file -- /Users/raheemgul/Desktop/railsruby/config/routes.rb):
+  164    
+  165  activesupport (5.1.4) lib/active_support/dependencies.rb:286:in `load'
+
+/Users/raheemgul/Desktop/railsruby/tmp/cache/assets/sprockets/v3.0/_h/_hrwt_IT1AvLD0kbr0KU8VZAc2XP4PtOBkNkWMXFGiA.cache:
+    <binary>
+
+9 matches across 7 files
+
+
+Searching 136 files for "railsruby"
+
+/Users/raheemgul/Desktop/railsruby/package.json:
+    1  {
+    2:   "name": "railsruby",
+    3    "private": true,
+    4    "dependencies": {}
+
+/Users/raheemgul/Desktop/railsruby/config/cable.yml:
+    8    adapter: redis
+    9    url: redis://localhost:6379/1
+   10:   channel_prefix: railsruby_production
+   11  
+
+/Users/raheemgul/Desktop/railsruby/log/development.log:
+  161  Started GET "/" for 127.0.0.1 at 2018-02-15 14:05:12 +0300
+  162    
+  163: LoadError (cannot load such file -- /Users/raheemgul/Desktop/railruby/config/routes.rb):
+  164    
+  165  activesupport (5.1.4) lib/active_support/dependencies.rb:286:in `load'
+
+/Users/raheemgul/Desktop/railsruby/tmp/cache/assets/sprockets/v3.0/_h/_hrwt_IT1AvLD0kbr0KU8VZAc2XP4PtOBkNkWMXFGiA.cache:
+    <binary>
+
+6 matches across 4 files
