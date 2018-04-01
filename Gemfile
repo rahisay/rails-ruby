@@ -25,8 +25,13 @@ gem 'coffee-rails', '~> 4.2'
 gem 'bootstrap', '~> 4.0.0.alpha4'
 # use devise 
 gem 'devise'
+# active admin
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 # jquery_ujs
 gem 'jquery-rails'
+# jquery-ui-rails 
+gem 'jquery-ui-rails' , '~> 5.0.5'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
